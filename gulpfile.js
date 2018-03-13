@@ -75,19 +75,6 @@ gulp.task('style:build', function () {
 
 gulp.task('image:build', function() {
     return gulp.src(path.src.img)
-        .pipe(cache(imagemin([
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.jpegtran({progressive: true}),
-            imageminJpegRecompress({
-                loops: 5,
-                min: 65,
-                max: 70,
-                quality:'medium'
-            }),
-            imagemin.svgo(),
-            imagemin.optipng({optimizationLevel: 3}),
-            pngquant({quality: '65-70', speed: 5})
-        ], { verbose: true })))
         .pipe(gulp.dest(path.build.img));
 });
 
