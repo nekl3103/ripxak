@@ -1,0 +1,24 @@
+{
+  "name": "MKS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.1.0",
+    "gulp-cache": "1.0.2",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rigger": "0.5.8",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-jpeg-recompress": "5.1.0",
+    "imagemin-pngquant": "5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MKS",
+  "license": "ISC"
+}
